@@ -23,10 +23,13 @@ Paste this file into a new chat to continue.
 - Visual Studio 2026.
 - Trunk-based workflow (main + short branches), no long-lived development branch. Staging slot in Azure handles pre-production testing.
 - Naming guide: docs/naming-guide.md
+- Azure resource group: rg-equipiq-dev, region East US, tags project=equipiq, environment=dev
 
 ## Completed steps
-- Phase 0: Steps 1-7 done (tools, Docker, Azure CLI login, repo, folder layout, ignore/config files)
-- Phase 0: Step 8 (this file and naming guide)
+- Phase 0 complete:
+  - Tools installed and verified (VS 2026, .NET 10, Node, Angular CLI, Docker, Azure CLI, Git)
+  - GitHub repo created, folder layout, ignore/config files, naming guide, Copilot instructions
+  - Azure: resource group `rg-equipiq-dev` (East US), monthly budget `budget-equipiq-monthly` ($25, alerts at 50/80/100% actual and 100% forecast)
 
 ## Next step
-Phase 0, Step 9: write .github/copilot-instructions.md
+Phase 1, Step 1: create the solution with EquipIQ.Core, Application, Infrastructure, Api, and the Aspire AppHost in Visual Studio 2026.ns.md

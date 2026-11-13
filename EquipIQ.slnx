@@ -1,4 +1,14 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="global.json" />
+    <File Path="LICENSE" />
+    <File Path="PROGRESS.md" />
+  </Folder>
   <Folder Name="/src/">
     <Project Path="src/backend/EquipIQ.Api/EquipIQ.Api.csproj" Id="0e0ce943-44d2-45a8-9804-adf55e24c6c2" />
     <Project Path="src/backend/EquipIQ.Application/EquipIQ.Application.csproj" />

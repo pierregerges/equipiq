@@ -2,6 +2,7 @@
   <Folder Name="/Solution Items/">
     <File Path=".editorconfig" />
     <File Path=".gitattributes" />
+    <File Path=".github/copilot-instructions.md" />
     <File Path=".gitignore" />
     <File Path="Directory.Build.props" />
     <File Path="Directory.Packages.props" />
@@ -15,5 +16,7 @@
     <Project Path="src/backend/EquipIQ.Core/EquipIQ.Core.csproj" Id="598926f9-38ca-4e2e-816e-47891471f8b5" />
     <Project Path="src/backend/EquipIQ.Infrastructure/EquipIQ.Infrastructure.csproj" Id="83df93d1-fe66-49d9-80e4-3fa5d26bc15b" />
   </Folder>
-  <Folder Name="/tests/" />
+  <Folder Name="/tests/">
+    <Project Path="tests/EquipIQ.Core.UnitTests/EquipIQ.Core.UnitTests.csproj" Id="cd90fb29-ff34-4c59-990b-b1c3898c1564" />
+  </Folder>
 </Solution>

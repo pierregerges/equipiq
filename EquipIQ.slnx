@@ -17,6 +17,7 @@
     <Project Path="src/backend/EquipIQ.Infrastructure/EquipIQ.Infrastructure.csproj" Id="83df93d1-fe66-49d9-80e4-3fa5d26bc15b" />
   </Folder>
   <Folder Name="/tests/">
+    <Project Path="tests/EquipIQ.Application.UnitTests/EquipIQ.Application.UnitTests.csproj" Id="7156dfdd-0039-4cbf-bd8f-5413da578918" />
     <Project Path="tests/EquipIQ.Core.UnitTests/EquipIQ.Core.UnitTests.csproj" Id="cd90fb29-ff34-4c59-990b-b1c3898c1564" />
   </Folder>
 </Solution>

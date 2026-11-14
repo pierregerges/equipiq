@@ -4,6 +4,6 @@ using System.Text;
 
 namespace EquipIQ.Application.WorkOrders.GetWorkOrderById;
 
-internal class GetWorkOrderByIdQueryValidator
+internal sealed class GetWorkOrderByIdQueryValidator
 {
 }

@@ -1,0 +1,23 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitattributes" />
+    <File Path=".github/copilot-instructions.md" />
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="global.json" />
+    <File Path="LICENSE" />
+    <File Path="PROGRESS.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/backend/EquipIQ.Api/EquipIQ.Api.csproj" Id="0e0ce943-44d2-45a8-9804-adf55e24c6c2" />
+    <Project Path="src/backend/EquipIQ.Application/EquipIQ.Application.csproj" />
+    <Project Path="src/backend/EquipIQ.Core/EquipIQ.Core.csproj" Id="598926f9-38ca-4e2e-816e-47891471f8b5" />
+    <Project Path="src/backend/EquipIQ.Infrastructure/EquipIQ.Infrastructure.csproj" Id="83df93d1-fe66-49d9-80e4-3fa5d26bc15b" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/EquipIQ.Application.UnitTests/EquipIQ.Application.UnitTests.csproj" Id="7156dfdd-0039-4cbf-bd8f-5413da578918" />
+    <Project Path="tests/EquipIQ.Core.UnitTests/EquipIQ.Core.UnitTests.csproj" Id="cd90fb29-ff34-4c59-990b-b1c3898c1564" />
+  </Folder>
+</Solution>

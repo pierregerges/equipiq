@@ -1,0 +1,21 @@
+<Project>
+
+  <PropertyGroup>
+    <!-- Make the compiler warn about possible null mistakes -->
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+
+    <!-- Any warning fails the build, so problems never pile up -->
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+
+    <!-- Built-in .NET code analyzers (bug and security checks) -->
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisLevel>latest-recommended</AnalysisLevel>
+
+    <!-- Also warn about known-vulnerable packages, including indirect ones -->
+    <NuGetAudit>true</NuGetAudit>
+    <NuGetAuditMode>all</NuGetAuditMode>
+  </PropertyGroup>
+
+</Project>

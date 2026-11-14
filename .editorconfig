@@ -387,3 +387,11 @@ dotnet_naming_style.s_camelcase.required_suffix =
 dotnet_naming_style.s_camelcase.word_separator = 
 dotnet_naming_style.s_camelcase.capitalization = camel_case
 
+[tests/**.cs]
+dotnet_diagnostic.CA1707.severity = none
+
+# Logging performance rules (CA1848, CA1873). They only matter for very high-volume logging.
+# We keep plain, readable logger calls and leave these as hints instead of build errors.
+[*.cs]
+dotnet_diagnostic.CA1848.severity = suggestion
+dotnet_diagnostic.CA1873.severity = suggestion
